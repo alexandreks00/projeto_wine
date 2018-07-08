@@ -1,0 +1,2 @@
+1 - Compra normal com smart tv(PDP) e no Carrinho, campo CEP valido e invalido PDP e Carrinho,boleto, validar dados da entrega (bloco), validar os botoes Finalizar Compra (bloqueado) + MOBI + validar codigo de barra + meus pedidos
+		

@@ -1,0 +1,3 @@
+#default: --no-source --color --format pretty --format html --out=report.html
+#json: --format progress --format json --out=reports\json\features_report.json
+default: --no-source --color --format pretty --format html --out=Teste<%= Time.now.strftime('%HH%MM%SS') %>.html

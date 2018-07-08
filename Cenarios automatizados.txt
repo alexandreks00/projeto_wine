@@ -1,0 +1,53 @@
+Cenarios
+    Compra normal:
+        1 - Realizar a compra de um produto e me logo apenas no final da compra, com pagamento boleto
+        2-  Realizar a compra de um produto e me logo apenas no final da compra, com pagamento de um cartao de credito (PF/PJ)
+        3 - Realizar a compra de um produto e me logo apenas no final da compra, com pagamento de dois cartões de credito
+        
+    Compra Retira:
+        1 - Finalizar a compra de um produto, utilizando modal leve, cartao de credito - dois cartoes de credito com/sem garantia
+        2 - Finalizar a compra de um produto, utilizando modal leve, boleto bancario sem garantia (nesse cenario é criado um novo usuario para não ocorrer o problema da boletagem)
+        3 - Finalizar a compra de um produto, utilizando modal mapa, cartao de credito com e sem garantia
+    
+    Testes de Login:
+        4 - Realizar login pelo menu lateral, link minha conta
+        5 - Realizar a tentativa de login, com senha invalida/usuario invalido (PF e PJ)
+        6 - Validar link esqueci meu email na tela de login
+        7 - Validar link de esqueci minha senha de login
+        
+    Ordenação (página de resultados da pesquisa)
+        1 - tipo_ordenacao: 
+                "Popularidade"  
+                "Mais Vendidos" 
+                "Menor Preço" 
+                "Maior Preço"  
+                    "A - Z"    
+                    "Z - A"     
+    Outros Lojistas:
+        1 - Validar o nome do marketplace selecionado na tela de carrinho
+        2 - Fluxo completo outros lojistas com usuario já cadastrado, sem garantia, cartão de credito e boleto
+
+    Serviços:
+        1 - Finalizar a compra de um sku com serviço de instalação de moveis (boleto bancario, criando novo user)
+        2 - Finalizar a compra com serviço de instalação de moveis, 1 cartão/visa checkout 
+        1 - Finalizar a compra de um sku com serviço de instalação de TV (boleto bancario, criando novo user)
+        2 - Finalizar a compra com serviço de instalação de TV, 1 cartão/visa checkout    
+        1 - Finalizar a compra de um sku com serviço de instalação de ar (boleto bancario, criando novo user)
+        2 - Finalizar a compra com serviço de instalação de ar, 1 cartão/visa checkout       
+    REVO (normal e retira):
+        1 - Normal - Validar retentativa de pagamento com 1 cartão, 2 cartões, boleto (usuario novo é cadastrado) e visa
+        2 - Retira - Validar loja selecionada para retirar produto com 1 cartão e verificar o bloco 
+
+    Testes alternativos:
+        1 - Validar exibição do desconto navegando pelo google shopping (google vs preço da PDP)
+        2 - Validar exibição do desconto navegando pelo msite (preço na PDP)
+        3 - Fluxo normal de compra - 1 cartão de crédito - CEP invalido na PDP
+        4 - Retira - mudança do ponto de retirada e finalização da compra com novo ponto de retirada
+        5 - Validação do footer do m.site, selecionando o link lojas físicas:
+            -Validar loja física pela Cidade
+            -Validar loja física pelo CEP
+            -Validar loja física pelo Estado
+
+    Cenarios a serem automatizados:
+    
+

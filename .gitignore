@@ -1,0 +1,19 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+*.jpg
+.DS_Store
+.html
+*.log
+debug.log
+\data\rascunho.txt
+add
+
+*.png
+.irb-history
+!allure-commandline/bin/allure-report/data/attachments/.*
+*.html
+.ruby-version
+*.html
+
+/$tf
+*.lock
+.lock
