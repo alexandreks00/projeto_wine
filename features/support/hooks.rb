@@ -7,12 +7,9 @@ Before do |scn|
   @resultados = PaginaResultado.new
   @validacao = PaginaValidacao.new
   @login = PaginaLogin.new
-  @entrega = PaginaEntrega.new
   @pagamento = PaginaPagamento.new
   @conta = PaginaConta.new
   @endereco = PaginaEndereco.new
-  @retira = PaginaRetira.new
-  @script = PaginaScript.new
   @produto = PaginaProduto.new
 
   Capybara.current_session.driver.browser.manage.delete_all_cookies

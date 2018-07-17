@@ -15,16 +15,6 @@ DATA = YAML.load_file('data/data.yml')
 EL = YAML.load_file('data/elements.yml')
 MSG = YAML.load_file('data/msg.yml')
 
-if ENV['extra']
-  $site = "extra"
-elsif ENV['ponto_frio']
-  $site = "ponto_frio"
-elsif ENV['casas_bahia']  
-  $site = "casas_bahia"
-else
-  $site = "casas_bahia"
-end
-
 if ENV['chrome']
   # Capybara.default_driver = :chrome
   # caps = Selenium::WebDriver::Remote::Capabilities.chrome

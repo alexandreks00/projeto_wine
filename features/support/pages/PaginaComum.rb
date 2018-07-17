@@ -5,7 +5,6 @@ class PaginaComum
 
   def login_occ
     assert_selector('span[class="oj-button-text"]', text: "Logon", wait: 30, visible: true)
-    sleep 2.5
     find('input#cc-login-login', wait: 10, visible: true).set('alexandre.shimizu@bluedigital.com.br')
     find('input[type="password"]', wait:30).set('@A4e3a4e3')
     find('input[id="cc-login-passcode"]', wait: 10).set('123456')
@@ -48,9 +47,7 @@ class PaginaComum
 
   def abreCarrinho_finalizarCompra
     expect(page).to have_css("a#CC-header-cart-total")  
-    sleep 2.5
     find('a[id="CC-header-cart-total"]', wait: 10, visible: true).click
-    sleep 3 #proposital para visualizacao de todos
     find('a[id="CC-header-cart-total"]', wait: 10, visible: true).click
     find('span#CC-headerCheckout', wait: 10).click
     preenche_endereco_entrega
